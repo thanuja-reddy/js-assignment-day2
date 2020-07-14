@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>JS ASSIGNMENT DAY2 3rd QUESTION
+</title>
+</head>
+<body>
+    <h3>DISPLAYING CURRENT DATE</h3>
+<script type="text/javascript">
+var today=new Date();
+var dd=String(today.getDate()).padStart(2,'0');
+var mm=String(today.getMonth() +1).padStart(2,'0');
+var yyyy=today.getFullYear();
+today1=mm+'/'+dd +'/'+yyyy;
+document.write(today1);
+document.write(" , ");
+today2=mm+"-"+dd+ "-"+yyyy;
+document.write(today2);
+</script>
+</body>
+</html>
